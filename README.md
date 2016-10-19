@@ -2,12 +2,12 @@
  The software comes an educational tool written in python to demonstrate a convolution operation in an image.
  
    Ps. Description in PT-BR
-```c++
-					      ____  _____    _    ____  __  __ _____ 
-					     |  _ \| ____|  / \  |  _ \|  \/  | ____|
-					     | |_) |  _|   / _ \ | | | | |\/| |  _|  
-					     |  _ <| |___ / ___ \| |_| | |  | | |___ 
-					     |_| \_\_____/_/   \_\____/|_|  |_|_____|
+```
+ ____  _____    _    ____  __  __ _____ 
+|  _ \| ____|  / \  |  _ \|  \/  | ____|
+| |_) |  _|   / _ \ | | | | |\/| |  _|  
+|  _ <| |___ / ___ \| |_| | |  | | |___ 
+|_| \_\_____/_/   \_\____/|_|  |_|_____|
 ```
 
 Atividade - Visão Computacional
@@ -15,7 +15,7 @@ Implementar software para convolução 2D
 Aluno: Gabriel Kirsten Menezes RA:148298
 Universidade Católica Dom Bosco
 
-# Descrição
+### Descrição
 
 Desenvolvido em Python v2.7.12 utilizando como base a biblioteca OpenCV v3.0.0 
 Sistema Operacional: Ubuntu 16.04 LTS 
@@ -43,7 +43,7 @@ Para a parte de apresentação dos dados no passo a passo, foi utilizada uma bib
 
 Na convolução, o maior problema encontrado, foi na normalização, mesmo após a utilização do skimage, os dados que a matriz recebia, só eram recebidos na faixa de 0 a 255, todos os valores fora desta faixa eram salvos com outros valores, e sua normalização se mostrou sem sucesso. a solução foi transformar a imagem que estava no formato da biblioteca openCV para uma matriz de float com a operação:
 
-img_conv = 1.0 * img_conv
+	img_conv = 1.0 * img_conv
 
 Após aplicar esta operação, a convolução é realizada e os valores são normalizados e transformados para o tipo unsigned int de 8 bits (0 a 255):
 
@@ -79,7 +79,7 @@ A convolução implementada encara a matriz de imagem como uma matriz espelhada,
 	- Aperfeiçoamento do código.
 
 
-# Utilização
+### Utilização
 
 - Instale (se não estiver instalado) a biblioteca "ImageTk" com o comando: "sudo apt-get install python-imaging-tk";
 - Instale (se não estiver instalado) a biblioteca "Skimage" com o comando: "sudo apt-get install python-skimage";
@@ -87,8 +87,7 @@ A convolução implementada encara a matriz de imagem como uma matriz espelhada,
 - Execute o código atividadeFolha.py com o comando "python atividadeConvolucao.py";
 - Selecione o tamanho da matriz de convolução, o tamanho é referente a uma das dimensões de uma matriz quadrada no campo "Size" e pressione o botão "OK";
 
-
-* PARA ABRIR UMA IMAGEM COM OS VALORES DOS PIXELS (MAIS DIDÁTICO): 
+###### PARA ABRIR UMA IMAGEM COM OS VALORES DOS PIXELS (MAIS DIDÁTICO): 
 
 (a imagem sofrerá uma redução de 10 vezes a quantidade de pixel)
 
@@ -96,29 +95,29 @@ A convolução implementada encara a matriz de imagem como uma matriz espelhada,
 	- Selecione a opção "Enable resize image" no campo "Options"
 	- No menu superior, selecione "Image Options" -> "Open Image" e selecione um arquivo de imagem que será aplicada a convolução;
 --------------------------------------------------------------------------------
-######PARA ABRIR UMA IMAGEM:(OPÇÃO PARA IMAGENS MAIORES, PORÉM, MENOS DIDÁTICO
+###### PARA ABRIR UMA IMAGEM:(OPÇÃO PARA IMAGENS MAIORES, PORÉM, MENOS DIDÁTICO
 	- Selecione a opção "Enable resize image" no campo "Options"
 	- No menu superior, selecione "Image Options" -> "Open Image" e selecione um arquivo de imagem que será aplicada a convolução;
 --------------------------------------------------------------------------------
-* PARA DIGITAR UMA MATRIZ:
+###### PARA DIGITAR UMA MATRIZ:
 	- Informe os valores de cada campo da matriz de convolução no campo identificado por "Convolution Matrix";
 --------------------------------------------------------------------------------
-* PARA CARREGAR UMA MATRIZ SALVA:
+###### PARA CARREGAR UMA MATRIZ SALVA:
 	- No menu superior, selecione "Matrix Options" -> "Open Matrix" e selecione um arquivo de matriz;
 --------------------------------------------------------------------------------
-* PARA SALVAR UMA MATRIZ:
+###### PARA SALVAR UMA MATRIZ:
 	- Digite os valores da matriz no campo "Convolution Matrix"
 	- No menu superior, selecione "Matrix Options" -> "Save Matrix" e digite um nome e selecione um diretorio para salvar a matriz;
 	(obs: por definição, salve os nomes da matriz seguidos do seu tamanho, exemplo: "canny3x3.mtx")
 --------------------------------------------------------------------------------
-* PARA APLICAR A CONVOLUÇÃO PASSO A PASSO:
+###### PARA APLICAR A CONVOLUÇÃO PASSO A PASSO:
 	- Verifique se a matriz de convolução esta completamente preenchida e há uma imagem selecionada;
 	- Pressione o botão "Convolution Step";
 	- Uma nova janela irá se abrir, sobrepondo as outras, pressione "STEP" para visualizar a convolução passo a passo;
 	(os valores intermediários da convolução irão ser apresentados no terminal)
 	(se desejar terminar a convolução, pressione o botão "RESUME", que a convolução irá ser aplicada até o final)
 --------------------------------------------------------------------------------
-* PARA APLICAR A CONVOLUÇÃO SEM PASSO A PASSO:
+###### PARA APLICAR A CONVOLUÇÃO SEM PASSO A PASSO:
 	- Verifique se a matrix de convolução esta completamente preenchida e há uma imagem selecionada;
 	- Pressione o botão "Convolution";
 --------------------------------------------------------------------------------
@@ -140,8 +139,7 @@ A convolução implementada encara a matriz de imagem como uma matriz espelhada,
         |	|	|-- sobely3x3.mtx
 
 --------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-			##### Comandos #####
+###### Comandos 
 ```
 --------------------------------------------------------------------------------
 # Comando #			|	# Descrição #
