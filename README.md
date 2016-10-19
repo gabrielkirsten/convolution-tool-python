@@ -19,8 +19,8 @@ Aluno: Gabriel Kirsten Menezes
 Universidade Católica Dom Bosco
 
 ### Imagem do software
-![alt tag](https://cloud.githubusercontent.com/assets/15522193/18115621/c9e96b1c-6f0e-11e6-8186-2a416f0d897d.png)
-![alt tag](https://cloud.githubusercontent.com/assets/15522193/18115621/c9e96b1c-6f0e-11e6-8186-2a416f0d897d.png)
+![alt tag](https://cloud.githubusercontent.com/assets/15522193/19534336/c004eedc-9619-11e6-8e72-ee32683eee8f.png)
+![alt tag](https://cloud.githubusercontent.com/assets/15522193/19534335/bffe68c8-9619-11e6-804e-352866af08d5.png)
 ### Descrição
 
 Desenvolvido em Python v2.7.12 utilizando como base a biblioteca OpenCV v3.0.0 
@@ -87,11 +87,28 @@ A convolução implementada encara a matriz de imagem como uma matriz espelhada,
 
 ### Utilização
 
-- Instale (se não estiver instalado) a biblioteca "ImageTk" com o comando: "sudo apt-get install python-imaging-tk";
-- Instale (se não estiver instalado) a biblioteca "Skimage" com o comando: "sudo apt-get install python-skimage";
+- Instale (se não estiver instalado) a biblioteca "ImageTk" com o comando: 
+
+```sh
+$ sudo apt-get install python-imaging-tk
+```
+
+- Instale (se não estiver instalado) a biblioteca "Skimage" com o comando:
+
+```sh
+$ sudo apt-get install python-skimage
+```
+
 - Altere o diretório no terminal linux com o comando 'cd' até a pasta onde se encontra o arquivo atividadeConvolucao.py;
-- Execute o código atividadeFolha.py com o comando "python atividadeConvolucao.py";
+- Execute o código atividadeConvolucao.py com o comando "python atividadeConvolucao.py";
+
+```sh
+$ python atividadeConvolucao.py
+```
+
 - Selecione o tamanho da matriz de convolução, o tamanho é referente a uma das dimensões de uma matriz quadrada no campo "Size" e pressione o botão "OK";
+
+
 
 ##### PARA ABRIR UMA IMAGEM COM OS VALORES DOS PIXELS (MAIS DIDÁTICO): 
 
