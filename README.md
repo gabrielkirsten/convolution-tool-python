@@ -1,7 +1,3 @@
-# convolution-tool-python
- The software comes an educational tool written in python to demonstrate a convolution operation in an image.
- 
-   Ps. Description in PT-BR
 ```
  ____  _____    _    ____  __  __ _____ 
 |  _ \| ____|  / \  |  _ \|  \/  | ____|
@@ -9,18 +5,20 @@
 |  _ <| |___ / ___ \| |_| | |  | | |___ 
 |_| \_\_____/_/   \_\____/|_|  |_|_____|
 ```
+# convolution-tool-python
+ The software comes an educational tool written in python to demonstrate a convolution operation in an image.
+ 
+	   (Ps. Description in PT-BR)
 
-Atividade - Visão Computacional
+Atividade - Visão Computacional - Universidade Católica Dom Bosco
 
-Implementar software para convolução 2D
+**Implementar software para convolução 2D (https://github.com/gabrielkirsten/convolution-tool-python)**
 
-Aluno: Gabriel Kirsten Menezes
-
-Universidade Católica Dom Bosco
+Autor: Gabriel Kirsten Menezes
 
 ### Imagem do software
-![alt tag](https://cloud.githubusercontent.com/assets/15522193/19534336/c004eedc-9619-11e6-8e72-ee32683eee8f.png)
 ![alt tag](https://cloud.githubusercontent.com/assets/15522193/19534335/bffe68c8-9619-11e6-804e-352866af08d5.png)
+![alt tag](https://cloud.githubusercontent.com/assets/15522193/19534336/c004eedc-9619-11e6-8e72-ee32683eee8f.png)
 ### Descrição
 
 Desenvolvido em Python v2.7.12 utilizando como base a biblioteca OpenCV v3.0.0 
@@ -45,7 +43,7 @@ A interface foi gerada dinamicamente, de acordo com os valores de tamanho da mat
 
 A parte relacionada com a apresentação dos dados passo a passo foi inicialmente implementada com um interface no terminal utilizando a biblioteca curses do python, ela se mostrou uma solução fácil, pois já era conhecida, e boa para apresentação dos dados, pois conta com uma ótima estrutura de textos e cores, posteriormente foi implementada uma outra utilizando o tkinter.
 
-Para a parte de apresentação dos dados no passo a passo, foi utilizada uma biblioteca para normalização da imagem (skimagem) e sua documentação foi obtida através do link http://nullege.com/codes/search/skimage.exposure.rescale_intensity.
+Para a parte de apresentação dos dados no passo a passo, foi utilizada uma biblioteca para normalização da imagem (skimagem) e sua documentação foi obtida através do link: http://nullege.com/codes/search/skimage.exposure.rescale_intensity.
 
 Na convolução, o maior problema encontrado, foi na normalização, mesmo após a utilização do skimage, os dados que a matriz recebia, só eram recebidos na faixa de 0 a 255, todos os valores fora desta faixa eram salvos com outros valores, e sua normalização se mostrou sem sucesso. a solução foi transformar a imagem que estava no formato da biblioteca openCV para uma matriz de float com a operação:
 
@@ -53,8 +51,8 @@ Na convolução, o maior problema encontrado, foi na normalização, mesmo após
 
 Após aplicar esta operação, a convolução é realizada e os valores são normalizados e transformados para o tipo unsigned int de 8 bits (0 a 255):
 
-img_conv = rescale_intensity(img_conv, in_range=(0,255))
-img_conv = (img_conv * 255).astype("uint8")	
+	img_conv = rescale_intensity(img_conv, in_range=(0,255))
+	img_conv = (img_conv * 255).astype("uint8")	
 
 Na implementação da convolução também optou-se por aplicar um fator de divisão nas matrizes de convolução que soma os valores da matriz e divide o valor do acumulador por esta soma, exemplo:
 
