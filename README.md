@@ -144,23 +144,19 @@ A convolução implementada encara a matriz de imagem como uma matriz espelhada,
 ### Comandos 
 ```
 --------------------------------------------------------------------------------
-# Comando #			|	# Descrição #
+# Comando #                     |       # Descrição #
 --------------------------------------------------------------------------------
-Menu "Image Options"		|	Opções relacionadas com a imagem;
-Opção "Open Image"			Abrir o seletor de imagem;
+Menu "Image Options"            |       Opções relacionadas com a imagem;
+Opção "Open Image"              |       Abrir o seletor de imagem;
 --------------------------------------------------------------------------------
-Menu "Matrix Options"		|	Opções relacionadas com a matrizes;
-Opção "Open Matrix"		|	Abrir uma matriz;
-Opção "Save Matrix as..."	|	Salvar uma matriz digitada;
+Menu "Matrix Options"           |       Opções relacionadas com a matrizes;
+Opção "Open Matrix"             |       Abrir uma matriz;
+Opção "Save Matrix as..."       |       Salvar uma matriz digitada;
 --------------------------------------------------------------------------------	
-Botão "Convolution Step"	|	Aplica a convolução mostrando o passo 
-				|	a passo;
+Botão "Convolution Step"        |       Aplica a convolução mostrando o passo a passo;
 --------------------------------------------------------------------------------
-Botão "Convolution"		|	Aplica a convolução;
+Botão "Convolution"             |       Aplica a convolução;
 --------------------------------------------------------------------------------
-Opção "Enable resize image"	|	Faz a imagem ser carregada com 10x menos
-				|	pixels e cada pixel aparecerá maior, 
-				|	dentro dele é exibido o valor 
-				|	correspondente.		
+Opção "Enable resize image"     |       Faz a imagem ser carregada com 10x menos pixels e cada pixel aparecerá maior, dentro dele é exibido o valor orrespondente.		
 --------------------------------------------------------------------------------
 ```
