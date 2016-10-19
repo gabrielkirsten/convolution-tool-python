@@ -153,10 +153,14 @@ Menu "Matrix Options"           |       Opções relacionadas com a matrizes;
 Opção "Open Matrix"             |       Abrir uma matriz;
 Opção "Save Matrix as..."       |       Salvar uma matriz digitada;
 --------------------------------------------------------------------------------	
-Botão "Convolution Step"        |       Aplica a convolução mostrando o passo a passo;
+Botão "Convolution Step"        |       Aplica a convolução mostrando o passo a 
+                                |       passo;
 --------------------------------------------------------------------------------
 Botão "Convolution"             |       Aplica a convolução;
 --------------------------------------------------------------------------------
-Opção "Enable resize image"     |       Faz a imagem ser carregada com 10x menos pixels e cada pixel aparecerá maior, dentro dele é exibido o valor orrespondente.		
+Opção "Enable resize image"     |       Faz a imagem ser carregada com 10x menos 
+                                |       pixels e cada pixel aparecerá maior, 
+                                |       dentro dele é exibido o valor 
+                                |       correspondente.		
 --------------------------------------------------------------------------------
 ```
