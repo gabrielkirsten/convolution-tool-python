@@ -3,11 +3,11 @@
  
    Ps. Description in PT-BR
 ```c++
-      ____  _____    _    ____  __  __ _____ 
-     |  _ \| ____|  / \  |  _ \|  \/  | ____|
-     | |_) |  _|   / _ \ | | | | |\/| |  _|  
-     |  _ <| |___ / ___ \| |_| | |  | | |___ 
-     |_| \_\_____/_/   \_\____/|_|  |_|_____|
+					      ____  _____    _    ____  __  __ _____ 
+					     |  _ \| ____|  / \  |  _ \|  \/  | ____|
+					     | |_) |  _|   / _ \ | | | | |\/| |  _|  
+					     |  _ <| |___ / ___ \| |_| | |  | | |___ 
+					     |_| \_\_____/_/   \_\____/|_|  |_|_____|
 ```
 
 Atividade - Visão Computacional
@@ -60,9 +60,9 @@ Na implementação da convolução também optou-se por aplicar um fator de divi
 	Soma dos valores = 9
 	
 	NOVA MATRIZ DE CONVOLUÇÃO:
-			|1	1	1|
+				|1	1	1|
 	(1/9) *		|1	1	1|
-			|1	1	1|
+				|1	1	1|
 			
 	(para somatórias = 0, a operação acima não é aplicada)
 	
@@ -80,23 +80,23 @@ A convolução implementada encara a matriz de imagem como uma matriz espelhada,
 
 
 # Utilização
---------------------------------------------------------------------------------
+
 - Instale (se não estiver instalado) a biblioteca "ImageTk" com o comando: "sudo apt-get install python-imaging-tk";
 - Instale (se não estiver instalado) a biblioteca "Skimage" com o comando: "sudo apt-get install python-skimage";
 - Altere o diretório no terminal linux com o comando 'cd' até a pasta onde se encontra o arquivo atividadeConvolucao.py;
 - Execute o código atividadeFolha.py com o comando "python atividadeConvolucao.py";
 - Selecione o tamanho da matriz de convolução, o tamanho é referente a uma das dimensões de uma matriz quadrada no campo "Size" e pressione o botão "OK";
---------------------------------------------------------------------------------
+
+
 * PARA ABRIR UMA IMAGEM COM OS VALORES DOS PIXELS (MAIS DIDÁTICO): 
+
 (a imagem sofrerá uma redução de 10 vezes a quantidade de pixel)
 
 ### OPÇÃO FUNCIONA COM IMAGENS PEQUENAS, COMO A DO EXEMPLO "TESTE.JPG" ###
 	- Selecione a opção "Enable resize image" no campo "Options"
 	- No menu superior, selecione "Image Options" -> "Open Image" e selecione um arquivo de imagem que será aplicada a convolução;
 --------------------------------------------------------------------------------
-* PARA ABRIR UMA IMAGEM: 
-
-### OPÇÃO PARA IMAGENS MAIORES, PORÉM, MENOS DIDÁTICO ###
+######PARA ABRIR UMA IMAGEM:(OPÇÃO PARA IMAGENS MAIORES, PORÉM, MENOS DIDÁTICO
 	- Selecione a opção "Enable resize image" no campo "Options"
 	- No menu superior, selecione "Image Options" -> "Open Image" e selecione um arquivo de imagem que será aplicada a convolução;
 --------------------------------------------------------------------------------
