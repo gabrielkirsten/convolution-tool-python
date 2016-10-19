@@ -2,7 +2,7 @@
  The software comes an educational tool written in python to demonstrate a convolution operation in an image.
  
    Ps. Description in PT-BR
-```python
+```c++
       ____  _____    _    ____  __  __ _____ 
      |  _ \| ____|  / \  |  _ \|  \/  | ____|
      | |_) |  _|   / _ \ | | | | |\/| |  _|  
@@ -10,16 +10,13 @@
      |_| \_\_____/_/   \_\____/|_|  |_|_____|
 ```
 
-			Atividade - Visão Computacional
-		Implementar software para convolução 2D
---------------------------------------------------------------------------------
+Atividade - Visão Computacional
+Implementar software para convolução 2D
 Aluno: Gabriel Kirsten Menezes RA:148298
 Universidade Católica Dom Bosco
---------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------
--> Descrição
---------------------------------------------------------------------------------
+# Descrição
+
 Desenvolvido em Python v2.7.12 utilizando como base a biblioteca OpenCV v3.0.0 
 Sistema Operacional: Ubuntu 16.04 LTS 
 
@@ -81,10 +78,8 @@ A convolução implementada encara a matriz de imagem como uma matriz espelhada,
 	- Implementação da parte de apresentação passo-a-passo dos dados;
 	- Aperfeiçoamento do código.
 
-	
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-			       Utilização
+
+# Utilização
 --------------------------------------------------------------------------------
 - Instale (se não estiver instalado) a biblioteca "ImageTk" com o comando: "sudo apt-get install python-imaging-tk";
 - Instale (se não estiver instalado) a biblioteca "Skimage" com o comando: "sudo apt-get install python-skimage";
@@ -94,11 +89,13 @@ A convolução implementada encara a matriz de imagem como uma matriz espelhada,
 --------------------------------------------------------------------------------
 * PARA ABRIR UMA IMAGEM COM OS VALORES DOS PIXELS (MAIS DIDÁTICO): 
 (a imagem sofrerá uma redução de 10 vezes a quantidade de pixel)
+
 ### OPÇÃO FUNCIONA COM IMAGENS PEQUENAS, COMO A DO EXEMPLO "TESTE.JPG" ###
 	- Selecione a opção "Enable resize image" no campo "Options"
 	- No menu superior, selecione "Image Options" -> "Open Image" e selecione um arquivo de imagem que será aplicada a convolução;
 --------------------------------------------------------------------------------
 * PARA ABRIR UMA IMAGEM: 
+
 ### OPÇÃO PARA IMAGENS MAIORES, PORÉM, MENOS DIDÁTICO ###
 	- Selecione a opção "Enable resize image" no campo "Options"
 	- No menu superior, selecione "Image Options" -> "Open Image" e selecione um arquivo de imagem que será aplicada a convolução;
@@ -125,26 +122,27 @@ A convolução implementada encara a matriz de imagem como uma matriz espelhada,
 	- Verifique se a matrix de convolução esta completamente preenchida e há uma imagem selecionada;
 	- Pressione o botão "Convolution";
 --------------------------------------------------------------------------------
-.
-|-- atividadeConvolucao
-|	|-- atividadeConvolucao.py (código em python)
-|	|-- teste.png (imagem de teste)
-|	|-- soja2.jpg (imagem da folha)
-|	|-- README.txt (arquivo contendo informações do software)
-|	|-- mtx (diretorio com matrizes de exemplo)
-|	|	|-- agucar3x3.mtx
-|	|	|-- cannyH3x3.mtx
-|	|	|-- desfoque3x3.mtx
-|	|	|-- desfoque7x7.mtx
-|	|	|-- destacarrelevo3x3.mtx
-|	|	|-- detectarbordas3x3.mtx
-|	|	|-- realcarbordas3x3.mtx
-|	|	|-- sharpen3x3.mtx
-|	|	|-- sobely3x3.mtx
+        .
+        |-- atividadeConvolucao
+        |	|-- atividadeConvolucao.py (código em python)
+        |	|-- teste.png (imagem de teste)
+        |	|-- soja2.jpg (imagem da folha)
+        |	|-- README.txt (arquivo contendo informações do software)
+        |	|-- mtx (diretorio com matrizes de exemplo)
+        |	|	|-- agucar3x3.mtx
+        |	|	|-- cannyH3x3.mtx
+        |	|	|-- desfoque3x3.mtx
+        |	|	|-- desfoque7x7.mtx
+        |	|	|-- destacarrelevo3x3.mtx
+        |	|	|-- detectarbordas3x3.mtx
+        |	|	|-- realcarbordas3x3.mtx
+        |	|	|-- sharpen3x3.mtx
+        |	|	|-- sobely3x3.mtx
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 			##### Comandos #####
+```
 --------------------------------------------------------------------------------
 # Comando #			|	# Descrição #
 --------------------------------------------------------------------------------
@@ -165,3 +163,4 @@ Opção "Enable resize image"	|	Faz a imagem ser carregada com 10x menos
 				|	dentro dele é exibido o valor 
 				|	correspondente.		
 --------------------------------------------------------------------------------
+```
