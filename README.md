@@ -11,10 +11,16 @@
 ```
 
 Atividade - Visão Computacional
+
 Implementar software para convolução 2D
-Aluno: Gabriel Kirsten Menezes RA:148298
+
+Aluno: Gabriel Kirsten Menezes
+
 Universidade Católica Dom Bosco
 
+### Imagem do software
+![alt tag](https://cloud.githubusercontent.com/assets/15522193/18115621/c9e96b1c-6f0e-11e6-8186-2a416f0d897d.png)
+![alt tag](https://cloud.githubusercontent.com/assets/15522193/18115621/c9e96b1c-6f0e-11e6-8186-2a416f0d897d.png)
 ### Descrição
 
 Desenvolvido em Python v2.7.12 utilizando como base a biblioteca OpenCV v3.0.0 
