@@ -87,40 +87,42 @@ A convolução implementada encara a matriz de imagem como uma matriz espelhada,
 - Execute o código atividadeFolha.py com o comando "python atividadeConvolucao.py";
 - Selecione o tamanho da matriz de convolução, o tamanho é referente a uma das dimensões de uma matriz quadrada no campo "Size" e pressione o botão "OK";
 
-###### PARA ABRIR UMA IMAGEM COM OS VALORES DOS PIXELS (MAIS DIDÁTICO): 
+##### PARA ABRIR UMA IMAGEM COM OS VALORES DOS PIXELS (MAIS DIDÁTICO): 
 
 (a imagem sofrerá uma redução de 10 vezes a quantidade de pixel)
 
-### OPÇÃO FUNCIONA COM IMAGENS PEQUENAS, COMO A DO EXEMPLO "TESTE.JPG" ###
+(OPÇÃO FUNCIONA COM IMAGENS PEQUENAS, COMO A DO EXEMPLO "TESTE.JPG")
+
 	- Selecione a opção "Enable resize image" no campo "Options"
 	- No menu superior, selecione "Image Options" -> "Open Image" e selecione um arquivo de imagem que será aplicada a convolução;
 --------------------------------------------------------------------------------
-###### PARA ABRIR UMA IMAGEM:(OPÇÃO PARA IMAGENS MAIORES, PORÉM, MENOS DIDÁTICO
+##### PARA ABRIR UMA IMAGEM:(OPÇÃO PARA IMAGENS MAIORES, PORÉM, MENOS DIDÁTICO
 	- Selecione a opção "Enable resize image" no campo "Options"
 	- No menu superior, selecione "Image Options" -> "Open Image" e selecione um arquivo de imagem que será aplicada a convolução;
 --------------------------------------------------------------------------------
-###### PARA DIGITAR UMA MATRIZ:
+##### PARA DIGITAR UMA MATRIZ:
 	- Informe os valores de cada campo da matriz de convolução no campo identificado por "Convolution Matrix";
 --------------------------------------------------------------------------------
-###### PARA CARREGAR UMA MATRIZ SALVA:
+##### PARA CARREGAR UMA MATRIZ SALVA:
 	- No menu superior, selecione "Matrix Options" -> "Open Matrix" e selecione um arquivo de matriz;
 --------------------------------------------------------------------------------
-###### PARA SALVAR UMA MATRIZ:
+##### PARA SALVAR UMA MATRIZ:
 	- Digite os valores da matriz no campo "Convolution Matrix"
 	- No menu superior, selecione "Matrix Options" -> "Save Matrix" e digite um nome e selecione um diretorio para salvar a matriz;
 	(obs: por definição, salve os nomes da matriz seguidos do seu tamanho, exemplo: "canny3x3.mtx")
 --------------------------------------------------------------------------------
-###### PARA APLICAR A CONVOLUÇÃO PASSO A PASSO:
+##### PARA APLICAR A CONVOLUÇÃO PASSO A PASSO:
 	- Verifique se a matriz de convolução esta completamente preenchida e há uma imagem selecionada;
 	- Pressione o botão "Convolution Step";
 	- Uma nova janela irá se abrir, sobrepondo as outras, pressione "STEP" para visualizar a convolução passo a passo;
 	(os valores intermediários da convolução irão ser apresentados no terminal)
 	(se desejar terminar a convolução, pressione o botão "RESUME", que a convolução irá ser aplicada até o final)
 --------------------------------------------------------------------------------
-###### PARA APLICAR A CONVOLUÇÃO SEM PASSO A PASSO:
+##### PARA APLICAR A CONVOLUÇÃO SEM PASSO A PASSO:
 	- Verifique se a matrix de convolução esta completamente preenchida e há uma imagem selecionada;
 	- Pressione o botão "Convolution";
 --------------------------------------------------------------------------------
+### Estrutura de diretórios
         .
         |-- atividadeConvolucao
         |	|-- atividadeConvolucao.py (código em python)
@@ -139,7 +141,7 @@ A convolução implementada encara a matriz de imagem como uma matriz espelhada,
         |	|	|-- sobely3x3.mtx
 
 --------------------------------------------------------------------------------
-###### Comandos 
+### Comandos 
 ```
 --------------------------------------------------------------------------------
 # Comando #			|	# Descrição #
