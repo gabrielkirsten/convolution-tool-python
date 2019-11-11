@@ -71,7 +71,7 @@ Na implementação da convolução também optou-se por aplicar um fator de divi
 	
 	NOVA MATRIZ DE CONVOLUÇÃO:
 				|1	1	1|
-	(1/9) *		|1	1	1|
+	(1/9) *			|1	1	1|
 				|1	1	1|
 			
 	(para somatórias = 0, a operação acima não é aplicada)
